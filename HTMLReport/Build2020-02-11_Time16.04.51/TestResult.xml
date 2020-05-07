@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="3" result="Failed" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="20" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2020-02-11 09:04:52Z" end-time="2020-02-11 09:05:23Z" duration="31.002164">
+  <command-line><![CDATA[".\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  "AIAAutoProject\bin\Debug\AIAAutoProject.dll" --result="TestResult.xml;format=nunit3" --work=".\HTMLReport\Build2020-02-11_Time16.04.51" --where "cat == AIA"]]></command-line>
+  <filter>
+    <cat>AIA</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1007" name="AIAAutoProject.dll" fullname="D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\bin\Debug\AIAAutoProject.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2020-02-11 09:04:52Z" end-time="2020-02-11 09:05:23Z" duration="30.579254" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="20">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\WorkSP\csharp\AIAAutoProject" machine-name="VNHCMMS0021" user="Erit.Ha" user-domain="AP" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value=".\HTMLReport\Build2020-02-11_Time16.04.51" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="29304" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="AIAAutoProject_NUnitAssemblyHooks" classname="AIAAutoProject_NUnitAssemblyHooks" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2020-02-11 09:04:52Z" end-time="2020-02-11 09:05:23Z" duration="30.563390" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="20">
+      <properties />
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Using app.config
+]]></output>
+      <test-suite type="TestSuite" id="0-1008" name="AIAAutoProject" fullname="AIAAutoProject" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2020-02-11 09:04:53Z" end-time="2020-02-11 09:05:22Z" duration="29.649843" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="20">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1009" name="Features" fullname="AIAAutoProject.Features" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2020-02-11 09:04:53Z" end-time="2020-02-11 09:05:22Z" duration="29.649810" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="20">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1001" name="FinesseCallInfoTabFeature" fullname="AIAAutoProject.Features.FinesseCallInfoTabFeature" classname="AIAAutoProject.Features.FinesseCallInfoTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-02-11 09:04:53Z" end-time="2020-02-11 09:04:59Z" duration="6.022254" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="FinesseCallInfoTab" />
+            </properties>
+            <test-case id="0-1002" name="FNE001_VerifyCallInfoTab_NoIncommingCall" fullname="AIAAutoProject.Features.FinesseCallInfoTabFeature.FNE001_VerifyCallInfoTab_NoIncommingCall" methodname="FNE001_VerifyCallInfoTab_NoIncommingCall" classname="AIAAutoProject.Features.FinesseCallInfoTabFeature" runstate="Runnable" seed="425729869" result="Passed" start-time="2020-02-11 09:04:55Z" end-time="2020-02-11 09:04:57Z" duration="1.918831" asserts="1">
+              <properties>
+                <property name="Description" value="FNE001 - Verify Call Info Tab - No incomming call" />
+                <property name="Category" value="AIA" />
+                <property name="Category" value="CallInfoTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_callinfo_tab.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.4s)
+Then The Call Info tab should be displayed successfully
+-> done: FinesseCallInfoTabSteps.ThenTheCallInfoTabShouldBeDisplayedSuccessfully() (0.3s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1003" name="FinesseCustomerJourneyTabFeature" fullname="AIAAutoProject.Features.FinesseCustomerJourneyTabFeature" classname="AIAAutoProject.Features.FinesseCustomerJourneyTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-02-11 09:04:59Z" end-time="2020-02-11 09:05:08Z" duration="9.636786" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="19">
+            <properties>
+              <property name="Description" value="FinesseCustomerJourneyTab" />
+            </properties>
+            <test-case id="0-1004" name="FNE001_VerifyCustomerJourneyTab_NoIncommingCall" fullname="AIAAutoProject.Features.FinesseCustomerJourneyTabFeature.FNE001_VerifyCustomerJourneyTab_NoIncommingCall" methodname="FNE001_VerifyCustomerJourneyTab_NoIncommingCall" classname="AIAAutoProject.Features.FinesseCustomerJourneyTabFeature" runstate="Runnable" seed="252156436" result="Passed" start-time="2020-02-11 09:05:01Z" end-time="2020-02-11 09:05:08Z" duration="7.453748" asserts="19">
+              <properties>
+                <property name="Description" value="FNE001 - Verify Customer Journey Tab - No incomming call" />
+                <property name="Category" value="AIA" />
+                <property name="Category" value="CustomerJourneyTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_cust_journey.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.3s)
+Then The Customer Journey tab should be displayed successfully
+-> done: FinesseCustomerJourneyTabfSteps.ThenTheCustomerJourneyTabShouldBeDisplayedSuccessfully() (6.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1005" name="LoginFinesseFeature" fullname="AIAAutoProject.Features.LoginFinesseFeature" classname="AIAAutoProject.Features.LoginFinesseFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2020-02-11 09:05:08Z" end-time="2020-02-11 09:05:22Z" duration="13.987891" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="LoginFinesse" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1006" name="LOG001_LoginFinesseDesktop" fullname="AIAAutoProject.Features.LoginFinesseFeature.LOG001_LoginFinesseDesktop" methodname="LOG001_LoginFinesseDesktop" classname="AIAAutoProject.Features.LoginFinesseFeature" runstate="Runnable" seed="1806368938" result="Failed" label="Error" start-time="2020-02-11 09:05:11Z" end-time="2020-02-11 09:05:22Z" duration="11.797038" asserts="0">
+              <properties>
+                <property name="Description" value="LOG001 - Login Finesse Desktop" />
+                <property name="Category" value="AIA" />
+                <property name="Category" value="LoginFinesse" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                <stack-trace><![CDATA[   at AIAAutoProject.Utility.Helper.ClickElement(String locator) in D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\Utility\Helper.cs:line 216
+   at AIAAutoProject.PageObjects.AIA.SignInFinessePage.ProceedToPassCertificate() in D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\PageObjects\AIA\SignInFinessePage.cs:line 42
+   at AIAAutoProject.PageObjects.AIA.SignInFinessePage.VerifySignInlandingPage() in D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\PageObjects\AIA\SignInFinessePage.cs:line 31
+   at AIAAutoProject.Features.BindingSteps.LoginFinesseSteps.WhenTheSignInLandingPageIsDisplayed() in D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\Features\BindingSteps\LoginFinesseSteps.cs:line 29
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 256
+   at AIAAutoProject.Features.LoginFinesseFeature.ScenarioCleanup()
+   at AIAAutoProject.Features.LoginFinesseFeature.LOG001_LoginFinesseDesktop() in D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\Features\LoginFinesse.feature:line 15]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I am on "https://hhufinessepub.telecentre.com/desktop/container/landing.jsp?locale=en_US"
+-> done: LoginFinesseSteps.GivenIAmOn("https://hhufiness...") (0.2s)
+When The Sign In Landing page is displayed
+Element NOT found : XPATH=.//button[contains(text(),'Advanced')]
+Class Helper | Method FindElement | Exception desc : no such element: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Advanced')]"}
+  (Session info: chrome=80.0.3987.87)
+-> error: Object reference not set to an instance of an object.
+SCREENSHOT[ file:///D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\bin\Debug\20200211160453Chrome/LOG001 - Login Finesse Desktop.jpg ]SCREENSHOT
+And I enter the valid user name is "uatagent.erit"
+-> skipped because of previous errors
+And Clicking the button Next
+-> skipped because of previous errors
+Then I enter the valid password is "NTTCreate@9" and extension "34509"
+-> skipped because of previous errors
+And Clicking the button Sing In
+-> skipped because of previous errors
+Then The finesse desktop should be displayed successfully
+-> skipped because of previous errors
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

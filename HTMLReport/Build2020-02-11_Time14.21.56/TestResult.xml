@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="3" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2020-02-11 07:21:56Z" end-time="2020-02-11 07:22:03Z" duration="7.359186">
+  <command-line><![CDATA[".\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  "AIAAutoProject\bin\Debug\AIAAutoProject.dll" --result="TestResult.xml;format=nunit3" --work=".\HTMLReport\Build2020-02-11_Time14.21.56" --where "cat == CallInfoTab"]]></command-line>
+  <filter>
+    <cat>CallInfoTab</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1007" name="AIAAutoProject.dll" fullname="D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\bin\Debug\AIAAutoProject.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-02-11 07:21:56Z" end-time="2020-02-11 07:22:03Z" duration="6.943659" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\WorkSP\csharp\AIAAutoProject" machine-name="VNHCMMS0021" user="Erit.Ha" user-domain="AP" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value=".\HTMLReport\Build2020-02-11_Time14.21.56" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="14168" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="AIAAutoProject_NUnitAssemblyHooks" classname="AIAAutoProject_NUnitAssemblyHooks" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-02-11 07:21:56Z" end-time="2020-02-11 07:22:03Z" duration="6.926784" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <properties />
+      <output><![CDATA[-> Loading plugin D:\WorkSP\csharp\AIAAutoProject\AIAAutoProject\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Using app.config
+]]></output>
+      <test-suite type="TestSuite" id="0-1008" name="AIAAutoProject" fullname="AIAAutoProject" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-02-11 07:21:57Z" end-time="2020-02-11 07:22:03Z" duration="6.032789" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <properties />
+        <test-suite type="TestSuite" id="0-1009" name="Features" fullname="AIAAutoProject.Features" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-02-11 07:21:57Z" end-time="2020-02-11 07:22:03Z" duration="6.032756" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties />
+          <test-suite type="TestFixture" id="0-1001" name="FinesseCallInfoTabFeature" fullname="AIAAutoProject.Features.FinesseCallInfoTabFeature" classname="AIAAutoProject.Features.FinesseCallInfoTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-02-11 07:21:57Z" end-time="2020-02-11 07:22:03Z" duration="6.031923" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="FinesseCallInfoTab" />
+            </properties>
+            <test-case id="0-1002" name="FNE001_VerifyCallInfoTab_NoIncommingCall" fullname="AIAAutoProject.Features.FinesseCallInfoTabFeature.FNE001_VerifyCallInfoTab_NoIncommingCall" methodname="FNE001_VerifyCallInfoTab_NoIncommingCall" classname="AIAAutoProject.Features.FinesseCallInfoTabFeature" runstate="Runnable" seed="934853108" result="Passed" start-time="2020-02-11 07:21:59Z" end-time="2020-02-11 07:22:01Z" duration="1.992680" asserts="1">
+              <properties>
+                <property name="Description" value="FNE001 - Verify Call Info Tab - No incomming call" />
+                <property name="Category" value="AIA" />
+                <property name="Category" value="CallInfoTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_callinfo_tab.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.4s)
+Then The Call Info tab should be displayed successfully
+-> done: FinesseCallInfoTabSteps.ThenTheCallInfoTabShouldBeDisplayedSuccessfully() (0.3s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

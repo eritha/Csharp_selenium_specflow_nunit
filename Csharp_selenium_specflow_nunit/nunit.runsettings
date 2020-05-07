@@ -1,0 +1,13 @@
+<RunSettings>  
+    <TestRunParameters>
+      <Parameter name="ENVIRONMENT" value="STG" />
+      <Parameter name="STG_QC_NAME" value="Erit (Phuoc Ha)" />
+      <Parameter name="STG_ORGANIZATION_NAME" value="Dimension Data" />
+      <Parameter name="STG_SELENIUM_HUB" value="http://localhost:4444/wd/hub" />
+		  <Parameter name="STG_SELENIUM_BASE_URL" value="https://www.lazada.vn" />
+		  <Parameter name="STG_BROWSER" value="Chrome" />
+      <Parameter name="STG_REPORT_HTLM" value="index.html" />
+      <Parameter name="STG_API_DOMAIN" value="https://jsonplaceholder.typicode.com" />
+      <Parameter name="STG_API_AUTHORIZATION" value="Bearer MUQ5QjFERDlEMjFENDA3QkIyQTEyNDMyRDY3OURCNjg6QHVLOTh1MHJNVGVWdUxwUFozalpYNmJDRDgwRnRLNENBSnQyREdFdWRvQ2xVWmtNU0dHU2xXZ0YxWEBX" />
+    </TestRunParameters>
+</RunSettings>

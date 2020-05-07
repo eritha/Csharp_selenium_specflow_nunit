@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Failed" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="91" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2020-05-07 02:23:03Z" end-time="2020-05-07 02:24:07Z" duration="64.189794">
+  <command-line><![CDATA[".\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  "Csharp_selenium_specflow_nunit\bin\Debug\Csharp_selenium_specflow_nunit.dll" --result="TestResult.xml;format=nunit3" --work=".\HTMLReport\Build2020-05-07_Time 9.23.02" --where "cat == ALL"]]></command-line>
+  <filter>
+    <cat>ALL</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1009" name="Csharp_selenium_specflow_nunit.dll" fullname="D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\bin\Debug\Csharp_selenium_specflow_nunit.dll" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2020-05-07 02:23:03Z" end-time="2020-05-07 02:24:07Z" duration="63.519225" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="91">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\WorkSP\csharp\Cshap_selenium_specflow_nunit" machine-name="VNHCMMS0021" user="Erit.Ha" user-domain="AP" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value=".\HTMLReport\Build2020-05-07_Time 9.23.02" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="34744" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="Csharp_selenium_specflow_nunit_NUnitAssemblyHooks" classname="Csharp_selenium_specflow_nunit_NUnitAssemblyHooks" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2020-05-07 02:23:03Z" end-time="2020-05-07 02:24:07Z" duration="63.502352" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="91">
+      <properties />
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Using app.config
+]]></output>
+      <test-suite type="TestSuite" id="0-1010" name="Csharp_selenium_specflow_nunit" fullname="Csharp_selenium_specflow_nunit" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2020-05-07 02:23:04Z" end-time="2020-05-07 02:24:07Z" duration="62.533167" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="91">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1011" name="Features" fullname="Csharp_selenium_specflow_nunit.Features" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2020-05-07 02:23:04Z" end-time="2020-05-07 02:24:07Z" duration="62.533142" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="91">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1001" name="FinesseCallInfoTabFeature" fullname="Csharp_selenium_specflow_nunit.Features.FinesseCallInfoTabFeature" classname="Csharp_selenium_specflow_nunit.Features.FinesseCallInfoTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-05-07 02:23:04Z" end-time="2020-05-07 02:23:12Z" duration="7.766777" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Description" value="FinesseCallInfoTab" />
+            </properties>
+            <test-case id="0-1002" name="TC002_VerifyCallInfoTab_NoIncommingCall" fullname="Csharp_selenium_specflow_nunit.Features.FinesseCallInfoTabFeature.TC002_VerifyCallInfoTab_NoIncommingCall" methodname="TC002_VerifyCallInfoTab_NoIncommingCall" classname="Csharp_selenium_specflow_nunit.Features.FinesseCallInfoTabFeature" runstate="Runnable" seed="183152142" result="Passed" start-time="2020-05-07 02:23:07Z" end-time="2020-05-07 02:23:09Z" duration="2.733341" asserts="2">
+              <properties>
+                <property name="Description" value="TC002 - Verify Call Info Tab - No incomming call" />
+                <property name="Category" value="ALL" />
+                <property name="Category" value="Gadget" />
+                <property name="Category" value="CallInfoTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_callinfo.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.7s)
+Then The Call Info tab should be displayed successfully
+-> done: FinesseCallInfoTabSteps.ThenTheCallInfoTabShouldBeDisplayedSuccessfully() (0.7s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1003" name="FinesseCustomerJourneyTabFeature" fullname="Csharp_selenium_specflow_nunit.Features.FinesseCustomerJourneyTabFeature" classname="Csharp_selenium_specflow_nunit.Features.FinesseCustomerJourneyTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-05-07 02:23:12Z" end-time="2020-05-07 02:23:23Z" duration="10.675811" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="19">
+            <properties>
+              <property name="Description" value="FinesseCustomerJourneyTab" />
+            </properties>
+            <test-case id="0-1004" name="TC003_VerifyCustomerJourneyTab_NoIncommingCall" fullname="Csharp_selenium_specflow_nunit.Features.FinesseCustomerJourneyTabFeature.TC003_VerifyCustomerJourneyTab_NoIncommingCall" methodname="TC003_VerifyCustomerJourneyTab_NoIncommingCall" classname="Csharp_selenium_specflow_nunit.Features.FinesseCustomerJourneyTabFeature" runstate="Runnable" seed="781800094" result="Passed" start-time="2020-05-07 02:23:14Z" end-time="2020-05-07 02:23:22Z" duration="8.433790" asserts="19">
+              <properties>
+                <property name="Description" value="TC003 - Verify Customer Journey Tab - No incomming call" />
+                <property name="Category" value="ALL" />
+                <property name="Category" value="Gadget" />
+                <property name="Category" value="CustomerJourneyTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_cust_journey.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.8s)
+Then The Customer Journey tab should be displayed successfully
+-> done: FinesseCustomerJourneyTabSteps.ThenTheCustomerJourneyTabShouldBeDisplayedSuccessfully() (6.5s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1005" name="FinesseWrapUpTabFeature" fullname="Csharp_selenium_specflow_nunit.Features.FinesseWrapUpTabFeature" classname="Csharp_selenium_specflow_nunit.Features.FinesseWrapUpTabFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-05-07 02:23:23Z" end-time="2020-05-07 02:23:52Z" duration="29.249519" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="70">
+            <properties>
+              <property name="Description" value="FinesseWrapUpTab" />
+            </properties>
+            <test-case id="0-1006" name="TC004_VerifyWrapUp_NoIncommingCall" fullname="Csharp_selenium_specflow_nunit.Features.FinesseWrapUpTabFeature.TC004_VerifyWrapUp_NoIncommingCall" methodname="TC004_VerifyWrapUp_NoIncommingCall" classname="Csharp_selenium_specflow_nunit.Features.FinesseWrapUpTabFeature" runstate="Runnable" seed="1382878531" result="Passed" start-time="2020-05-07 02:23:25Z" end-time="2020-05-07 02:23:52Z" duration="26.870996" asserts="70">
+              <properties>
+                <property name="Description" value="TC004 - Verify Wrap Up - No incomming call" />
+                <property name="Category" value="ALL" />
+                <property name="Category" value="Gadget" />
+                <property name="Category" value="WrapUpTab" />
+              </properties>
+              <output><![CDATA[Given I am on "file:///C:/WebContent/test_wrapup.html"
+-> done: LoginFinesseSteps.GivenIAmOn("file:///C:/WebCon...") (0.8s)
+Then The Wrap Up tab should be displayed successfully
+-> done: FinesseWrapUpTabSteps.ThenTheWrapUpTabShouldBeDisplayedSuccessfully() (24.9s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1007" name="LoginFinesseFeature" fullname="Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature" classname="Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2020-05-07 02:23:52Z" end-time="2020-05-07 02:24:07Z" duration="14.837559" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="LoginFinesse" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1008" name="TC001_LoginFinesseDesktop" fullname="Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature.TC001_LoginFinesseDesktop" methodname="TC001_LoginFinesseDesktop" classname="Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature" runstate="Runnable" seed="129932171" result="Failed" label="Error" start-time="2020-05-07 02:23:54Z" end-time="2020-05-07 02:24:06Z" duration="12.436607" asserts="0">
+              <properties>
+                <property name="Description" value="TC001 - Login Finesse Desktop" />
+                <property name="Category" value="ALL" />
+                <property name="Category" value="LoginFinesse" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                <stack-trace><![CDATA[   at Csharp_selenium_specflow_nunit.Utility.Helper.ClickElement(String locator) in D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\Utility\Helper.cs:line 216
+   at Csharp_selenium_specflow_nunit.PageObjects.AIA.SignInFinessePage.ProceedToPassCertificate() in D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\PageObjects\AIA\SignInFinessePage.cs:line 42
+   at Csharp_selenium_specflow_nunit.PageObjects.AIA.SignInFinessePage.VerifySignInlandingPage() in D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\PageObjects\AIA\SignInFinessePage.cs:line 31
+   at Csharp_selenium_specflow_nunit.Features.BindingSteps.LoginFinesseSteps.WhenTheSignInLandingPageIsDisplayed() in D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\Features\BindingSteps\LoginFinesseSteps.cs:line 29
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 256
+   at Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature.ScenarioCleanup()
+   at Csharp_selenium_specflow_nunit.Features.LoginFinesseFeature.TC001_LoginFinesseDesktop() in D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\Features\LoginFinesse.feature:line 15]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I am on "https://hhufinessepub.telecentre.com/desktop/container/landing.jsp?locale=en_US"
+-> done: LoginFinesseSteps.GivenIAmOn("https://hhufiness...") (0.7s)
+When The Sign In Landing page is displayed
+Element NOT found : XPATH=.//button[contains(text(),'Advanced')]
+Class Helper | Method FindElement | Exception desc : no such element: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Advanced')]"}
+  (Session info: chrome=81.0.4044.129)
+-> error: Object reference not set to an instance of an object.
+SCREENSHOT[ file:///D:\WorkSP\csharp\Cshap_selenium_specflow_nunit\Csharp_selenium_specflow_nunit\bin\Debug\20200507092304Chrome/TC001 - Login Finesse Desktop.jpg ]SCREENSHOT
+And I enter the valid user name is "uatagent.erit"
+-> skipped because of previous errors
+And Clicking the button Next
+-> skipped because of previous errors
+Then I enter the valid password is "NTTCreate@9" and extension "34509"
+-> skipped because of previous errors
+And Clicking the button Sign In
+-> skipped because of previous errors
+Then The finesse desktop should be displayed successfully
+-> skipped because of previous errors
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
