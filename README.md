@@ -27,6 +27,11 @@ will give some solution demonstrates like scalable, maintainable, readable and r
 - Verify login Workday successfully
 
 ## Pre-requisites
+
+#### Condition: Extract "WebContent.rar" to drive C"
+
+#### Tools & Libs:
+
 * Visual Studio: 2017
 * SpecFlow <3.0.225>
 * SpecFlow.NUnit <3.0.225>
@@ -68,9 +73,10 @@ If Test Explorer is not visible, choose Test on the Visual Studio menu, choose W
 
 ### Command Line
 
-Run the test from file "RunProject.bat"
 
-Run all tests at .sln directory
+#### Run the test from file "RunProject.bat"
+
+#### Run all tests at .sln directory
 ```
 $ ".\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe" "AutomationPOM\bin\Debug\AutomationPOM.dll" --result="TestResult.xml;format=nunit3"
 ```
