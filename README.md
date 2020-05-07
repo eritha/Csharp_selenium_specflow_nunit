@@ -1,0 +1,2 @@
+# cshap_selenium_specflow_nunit
+# Automation Page Object Model Framework - Using C#.NET, SpecFlow, Selenium, Nunit, Extent Report ## Overview [structure] (https://erit-ha.tinytake.com/tt/MzY2OTU1OF8xMTEzNjY0NA)  ``` This project is to provide a good starting structure point for those looking to use SpecFlow, Selenium and some other extensions.  It is also intended to demonstrate how to implement design patterns in a test framework (Page Object Model), Where many test frameworks  will give some solution demonstrates like scalable, maintainable, readable and repeatable. ```
