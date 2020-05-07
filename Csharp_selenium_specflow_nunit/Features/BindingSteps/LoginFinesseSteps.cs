@@ -15,13 +15,7 @@ namespace Csharp_selenium_specflow_nunit.Features.BindingSteps
         {
             _signin = new SignInFinessePage(driver);
             _home = new FinesseDesktopHomePage(driver);
-        }
-
-        [Given(@"I am on ""(.*)""")]
-        public void GivenIAmOn(string url)
-        {
-            _signin.Navigate(url);
-        }
+        } 
 
         [When(@"The Sign In Landing page is displayed")]
         public void WhenTheSignInLandingPageIsDisplayed()

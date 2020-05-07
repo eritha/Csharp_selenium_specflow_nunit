@@ -154,6 +154,9 @@
   <ItemGroup>
     <Compile Include="Base\DriverFactory.cs" />
     <Compile Include="Base\Hooks.cs" />
+    <Compile Include="Features\BindingSteps\DemoEcommerce\DemoSteps.cs" />
+    <Compile Include="Features\BindingSteps\DemoEcommerce\Lazada\VerifyLazadaHomePageSteps.cs" />
+    <Compile Include="Features\BindingSteps\DimData\LoginDimensionDataWorkdaySteps.cs" />
     <Compile Include="Features\BindingSteps\FinesseCallInfoTabSteps.cs" />
     <Compile Include="Features\BindingSteps\FinesseCustomerJourneyTabSteps.cs" />
     <Compile Include="Features\BindingSteps\FinesseWrapUpTabSteps.cs" />
@@ -164,6 +167,11 @@
     <Compile Include="PageObjects\AIA\FinesseDesktopHomePage.cs" />
     <Compile Include="PageObjects\AIA\SignInFinessePage.cs" />
     <Compile Include="PageObjects\BasePObject.cs" />
+    <Compile Include="PageObjects\DemoEcommerce\HomePage.cs" />
+    <Compile Include="PageObjects\DemoEcommerce\LoginPage.cs" />
+    <Compile Include="PageObjects\DimData\DDSigninPage.cs" />
+    <Compile Include="PageObjects\DimData\DDWorkDayHomePage.cs" />
+    <Compile Include="PageObjects\DemoEcommerce\DemoPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Configs.cs" />
     <Compile Include="Utility\FileUtils.cs" />
@@ -174,11 +182,16 @@
     <Compile Include="Utility\HttpRequest.cs" />
     <Compile Include="Utility\ScenarioExtension.cs" />
     <Compile Include="Utility\UserGenerator.cs" />
+    <Compile Include="Features\BindingSteps\DemoEcommerce\Lazada\VerifyLazadaLoginPageSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Features\DemoEcommerce\Demo.feature" />
+    <None Include="Features\DemoEcommerce\Lazada\VerifyLazadaHomePage.feature" />
+    <None Include="Features\DemoEcommerce\Lazada\VerifyLazadaLoginPage.feature" />
+    <None Include="Features\DimData\LoginDimensionDataWorkDay.feature" />
     <None Include="Features\FinesseCallInfoTab.feature" />
     <None Include="Features\FinesseCustomerJourneyTab.feature" />
     <None Include="Features\FinesseWrapUpTab.feature" />
